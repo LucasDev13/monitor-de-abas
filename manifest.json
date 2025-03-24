@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Monitor de Abas - Brave",
+    "version": "1.0",
+    "description": "Monitora e fecha automaticamente abas quando o número máximo de 15 abas é ultrapassado.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
